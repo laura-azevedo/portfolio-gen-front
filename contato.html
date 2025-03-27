@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+	<head>
+		<meta charset="UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Projeto Portfólio">
+		<meta name="author" content="Generation Brasil">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		
+		<link rel="icon" type="image/svg" href="./assets/favicon.svg" />
+
+		<title>Meu Perfil</title>
+	</head>
+
+	<body>
+
+		<!-- Cabeçalho da Página (header) -->
+		<header>
+
+			<!-- Div Conteudo do Cabeçalho -->
+			<div id="header_content">
+
+				<!-- Titulo do Cabeçalho -->
+				<div id="titulo">
+
+					<!-- Seu nome -->
+					<h1>Generation Brasil</h1>
+
+				</div>
+
+				<!-- Conteudo do Menu da Página (header) -->
+				<div id="menu">
+
+					<!-- Menu da Página -->
+					<nav>
+
+						<!-- Marcadores não ordenados + links -->
+						<ul id="menu">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="contato.html">Contato</a>
+							</li>
+						</ul>
+
+					</nav>
+
+				</div>
+
+			</div>
+
+		</header>
+
+		<!-- Seção Principal da Página (main) -->
+		<main>
+			
+			<!-- Seção Formulário de Contato e Redes Sociais -->
+			<section id="contact">
+				
+				<!-- Seção do Formulário-->
+				<form action="#" method="submit">
+
+					<label for="nome">Nome: </label>
+					<input
+						id="nome"
+						type="text"
+						name="name"
+						placeholder="Digite seu nome"
+						required
+					/>
+					<span id="txtNome"></span>
+
+					<label for="email">Email: </label>
+					<input
+						id="email"
+						type="email"
+						name="email"
+						placeholder="Digite seu email"
+						required
+					/>
+					<span id="txtEmail"></span>
+
+					<label for="subject">Assunto: </label>
+					<input
+						id="subject"
+						type="text"
+						name="subject"
+						placeholder="Digite o título da mensagem"
+						required
+					/>
+					<span id="txtSubject"></span>
+
+					<label for="message">Mensagem: </label>
+					<textarea
+						id="message"
+						name="message"
+						placeholder="Digite sua mensagem"
+						required
+					>
+					</textarea>
+
+					<button type="submit">Enviar</button>
+
+				</form>
+
+				<!-- Seção do Google Maps -->
+				<article id="mapa">
+
+					<div id="endereco">
+						<p>Avenida Chile, 330</p>
+						<p>Rio de Janeiro - RJ</p>
+					</div>
+
+					<iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.1135415907497!2d-43.18414642491168!3d-22.909182579253326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f667ee0ee3d%3A0xefa4c3fe161bd8e4!2sAv.%20Rep%C3%BAblica%20do%20Chile%2C%20330%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020031-170!5e0!3m2!1sen!2sbr!4v1743073160623!5m2!1sen!2sbr" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+				</article>
+
+			</section>
+
+		</main>
+
+		<!-- Rodapé da Página (footer) -->
+		<footer>
+
+			<!-- Seção de Contato - Redes Sociais-->
+			<section id="redes_sociais">
+
+				<a href="">
+					<img src="./assets/linkedin.svg" alt="LinkedIn" />
+				</a>
+				<a href="">
+					<img src="./assets/github.svg" alt="Github" />
+				</a>
+				<a href="">
+					<img src="./assets/instagram.svg" alt="Instagram" />
+				</a>
+
+			</section>
+
+			<h3>Feito com 🧡 por Generation Brasil - 2024</h3>
+
+		</footer>
+
+	</body>
+
+</html>
